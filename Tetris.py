@@ -58,17 +58,17 @@ running = True
 while running:
     # Input
     key = gfx.get_key()
-    if key == "esc":
+    if key == "9":
         running = False
-    elif key == "left":
+    elif key == "4":
         piece["x"] -= 1
         if collide(grid, piece): piece["x"] += 1
-    elif key == "right":
+    elif key == "6":
         piece["x"] += 1
         if collide(grid, piece): piece["x"] -= 1
-    elif key == "down":
+    elif key == "2":
         piece["y"] += 1
-    elif key == "up":
+    elif key == "8":
         rotate(piece)
         if collide(grid, piece):
             for _ in range(3): rotate(piece)  # undo
