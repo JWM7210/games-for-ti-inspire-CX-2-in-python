@@ -1,1 +1,1 @@
-You have to use TI software to compile this code into the supported format. You cannot simply rename the file.
+I need to test and compile the code into .py.tns - Tetris isn't working for now.
